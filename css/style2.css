@@ -1,0 +1,123 @@
+
+.gallery-item {
+    -webkit-box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.1);
+    border: none;
+ }
+    .gallery-item .custom-progress-success {
+      background-color: #f2f2f2;
+      height: .2rem;
+      border-radius: 4px;
+      margin-bottom: 20px; }
+    .gallery-item a {
+      color: #000; }
+      .gallery-item a:hover {
+        color: #79ccab; }
+    .gallery-item .donation-time {
+      color: #ccc;
+      display: block;
+      font-style: italic;
+      font-size: 15px; }
+    .gallery-item .card-title {
+      font-size: 24px; }
+
+    .gallery-item img {
+        height: 200px;
+    }
+
+    
+.team{
+    margin-top: 50px;
+  }
+  .team h1{
+      font-family: 'Paytone One', sans-serif;
+      font-size: 3rem;
+   color: rgba(65, 64, 64, 0.637);
+    padding-bottom: 1em;
+  }
+  .item p{
+    font-size: 20px;
+    line-height: 1.4;
+  }
+  .team span{
+  font-size: 3rem;
+  }
+  .team span.red{
+    color: #f0b762;
+  }
+  .team .team-body{
+    padding: 0 0 3em 2em;
+  }
+  .team .item{ 
+    text-align: center;
+    padding: 1em 0;
+  }
+  .team img{
+    width: 10em;
+    height: 10em;
+    border-radius: 5%;
+  }
+  .team .name{
+    color: #000;
+    font-weight: bold;
+  }
+  .team .desig{
+    font-size: 0.8em;
+    padding: 0.5em 0;
+  }
+  .team .share{
+    margin: 0 auto;
+    width: 5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .team i{
+    padding: 0.5em 0;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    color:  #CA1236;
+  }
+  .team i:hover{color: #000;}
+  .team p{
+    /* max-width: 27em;
+    margin: 0 auto; */
+    font-size: 0.8em;
+    text-align: justify;
+  }
+  
+  @media (min-width: 38.4rem){
+    .team{
+        font-size: 1.2em;
+    }
+    .team .team-body{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .team p{
+        padding: 1em;
+    }
+  }
+  
+
+#edu h2 {
+  color: #CA1236;
+  font-size: 2.4em;
+}
+
+#edu h4 {
+  color: #FFB30F;
+  font-size: 1.8em;
+}
+
+
+  
