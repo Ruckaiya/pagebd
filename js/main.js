@@ -24,6 +24,23 @@ if(menu.length){
 		openedSymbol:'-'
 	});
 };
+
+$('#play').on('click', function(e) {
+	e.preventDefault();
+	$("#player")[0].src += "?autoplay=1";
+	$('#player').show();
+	$('#video-cover').hide();
+	$('#play').hide();
+})
+
+$('#play2').on('click', function(e) {
+	e.preventDefault();
+	$("#player2")[0].src += "?autoplay=1";
+	$('#player2').show();
+	$('#video-cover2').hide();
+	$('#play2').hide();
+})
+
 // blog-menu
   // $('ul#blog-menu').slicknav({
   //   prependTo: ".blog_menu"
