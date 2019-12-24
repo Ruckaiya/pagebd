@@ -283,7 +283,7 @@ h3 {
     background: #fff;
     color: #006A4E;
     display: inline-block;
-    padding: 18px 44px;
+    padding: 9px 24px;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -610,7 +610,7 @@ h3 {
 }
 
 .slicknav_icon-bar {
-    background: #fff !important
+    background: #000 !important
 }
 
 .header-area {
@@ -640,7 +640,7 @@ h3 {
 
 @media (min-width: 992px) and (max-width: 1200px) {
     .header-area .main-header-area {
-        padding: 0 50px
+        padding: 0 20px;
     }
 }
 
@@ -670,12 +670,12 @@ h3 {
 .header-area .main-header-area .main-menu ul li {
     display: inline-block;
     position: relative;
-    padding-right: 10px;
+    padding-right: 12px;
 }
 
 .header-area .main-header-area .main-menu ul li a {
     color: #000;
-    font-size: 16px;
+    font-size: 18.5px;
     text-transform: capitalize;
     font-weight: 400;
     display: inline-block;
@@ -739,7 +739,7 @@ h3 {
 }
 
 .header-area .main-header-area .main-menu ul li .submenu li {
-    display: block
+    display: block;
 }
 
 .header-area .main-header-area .main-menu ul li .submenu li a {
@@ -824,8 +824,8 @@ h3 {
     text-transform: uppercase;
     font-weight: bolder;
     font-display: 20px;
-    font-size: 16px;
-    padding: 14px 44px;
+    font-size: 14px;
+    /* padding: 14px 44px; */
     letter-spacing: 0;
     border-color: red;
     background: transparent;
@@ -963,11 +963,79 @@ h3 {
     }
 }
 
+
+.header-container {
+    width: 100%;
+    height: 620px;
+    border-left: none;
+    border-right: none;
+    position: relative;
+    padding: 20px;
+  }
+
+  @media (max-width: 710px) {
+      .header-container {
+          height: 500px;
+      }
+  }
+
+  @media (max-width: 550px) {
+    .header-container {
+        height: 400px;
+    }
+}
+
+@media (max-width: 460px) {
+    .header-container {
+        height: 300px;
+    }
+}
+  
+  .video-container {
+    position: absolute;
+    top: 17%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  @media (max-width:768px) {
+    .video-container {
+      top: 20%;
+    }
+  }
+  @media (max-width:500px) {
+    .video-container {
+      top: 35%;
+    }
+  }
+  
+  video {
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
+    width: 100%;
+  }
+  
+  .header-container h1 {
+    z-index: 1;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20%;
+    border: 3px solid #ffffff;
+    padding: 10px;
+    border-radius: 15px;
+    width: 700px;
+    letter-spacing: 3px;
+  }
+
 .causes_area {
     position: relative;
     z-index: 99;
     padding-bottom: 115px;
-    margin-top: -130px
+    margin-top: 0px;
 }
 
 @media (max-width: 767px) {
@@ -976,6 +1044,13 @@ h3 {
         padding-bottom: 80px
     }
 }
+
+@media (max-width: 500px) {
+    .causes_area {
+        padding-top: 40px;
+    }
+}
+
 
 @media (min-width: 768px) and (max-width: 991px) {
     .causes_area {
@@ -1113,7 +1188,7 @@ h3 {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    color: #fff;
+    color: #000;
     text-align: center;
     background-color: #FFB30F;
     transition: width .6s ease;
@@ -1129,7 +1204,7 @@ h3 {
     height: 60px;
     background: #FFB30F;
     border-radius: 50%;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: bold;
     line-height: 60px;
     text-align: center
@@ -1246,10 +1321,10 @@ h3 {
     padding-left: 37px
 }
 
-.about_area .about_right .section_title h3{
+/* .about_area .about_right .section_title h3{
     font-size: 22px;
     line-height: 1.5em;
-}
+} */
 
 @media (max-width: 767px) {
     .about_area .about_right {
@@ -5159,7 +5234,7 @@ h6 {
   }
   
   .parallax-2 {
-    background-image: url('../img/gallery/school\ banner.jpg');
+    background-image: url('../img/gallery/p5.jpg');
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
